@@ -1,7 +1,9 @@
 name: Sleep Workflow
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   sleep-job:
