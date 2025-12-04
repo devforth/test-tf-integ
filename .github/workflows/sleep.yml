@@ -9,7 +9,7 @@ jobs:
   sleep-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Sleep 2 seconds 1
+      - name: Sleep 2 seconds 1 
         run: sleep 1.2
       - name: Sleep 2 seconds 2
         run: sleep 2.5
