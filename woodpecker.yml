@@ -1,0 +1,74 @@
+# Woodpecker CI configuration
+# Migrated from GitHub Actions workflow
+
+when:
+  branch: main
+  event:  push
+
+steps:
+  # Job:  sleep-job
+  sleep-1:
+    image: alpine:latest
+    commands:
+      - sleep 0.1
+
+  sleep-2:
+    image: alpine:latest
+    commands:
+      - sleep 0.2
+
+  sleep-3:
+    image:  alpine:latest
+    commands: 
+      - sleep 0.3
+
+  sleep-4:
+    image: alpine:latest
+    commands: 
+      - sleep 0.4
+
+  sleep-5:
+    image: alpine:latest
+    commands:
+      - sleep 0.6
+
+  sleep-6:
+    image: alpine:latest
+    commands:
+      - sleep 0.7
+
+  sleep-7:
+    image: alpine:latest
+    commands:
+      - sleep 0.8
+
+  sleep-8:
+    image: alpine:latest
+    commands:
+      - sleep 0.9
+
+  sleep-9:
+    image: alpine:latest
+    commands:
+      - sleep 1
+
+  sleep-10:
+    image: alpine:latest
+    commands:
+      - sleep 1.1
+
+  # Job: sleep-job-2
+  sleep-11:
+    image: alpine:latest
+    commands: 
+      - sleep 3.1
+
+  sleep-12:
+    image: alpine:latest
+    commands:
+      - sleep 4.5
+
+  sleep-13:
+    image: alpine:latest
+    commands:
+      - sleep 2.7
