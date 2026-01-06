@@ -10,32 +10,32 @@ steps:
   sleep-1:
     image: alpine:latest
     commands:
-      - sleep 0.3
+      - sleep 2
 
   sleep-2:
     image: alpine:latest
     commands:
-      - sleep 0.2
+      - sleep 2
 
   sleep-3:
     image:  alpine:latest
     commands: 
-      - sleep 0.3
+      - sleep 2
 
   sleep-4:
     image: alpine:latest
     commands: 
-      - sleep 0.4
+      - sleep 2
 
   sleep-5:
     image: alpine:latest
     commands:
-      - sleep 0.6
+      - sleep 2
 
   sleep-6:
     image: alpine:latest
     commands:
-      - sleep 0.7
+      - sleep 2
 
   sleep-7:
     image: alpine:latest
