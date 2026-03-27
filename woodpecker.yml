@@ -114,3 +114,4 @@ steps:
       - echo "This runs on push for all branches"
     when:
       event: push
+      branch: /.*/
