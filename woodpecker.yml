@@ -72,3 +72,10 @@ steps:
     image: alpine:latest
     commands:
       - sleep 0.7
+  
+  global-step:
+    image: alpine:latest
+    commands:
+      - echo "This runs on push for all branches"
+    when:
+      event: push
